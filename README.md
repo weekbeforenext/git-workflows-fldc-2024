@@ -5,6 +5,7 @@ This project was created for the *[Introduction to Agile and Git Workflows for W
 * [Create a Pull Request](#create-a-pull-request)
 * [Request a Review](#request-a-review)
 * [Review a Pull Request](#review-a-pull-request)
+* [Resolve Merge Conflicts](#resolve-merge-conflicts)
 
 ## Resources
 * [GitHub: Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
@@ -63,23 +64,23 @@ Just be sure to set your "base" to `develop` and "compare" to your feature branc
 2. Assign the Pull Request to the partner or teammate.
 
 ## Review a Pull Request
-* Verify the target branch is `develop`.
-* Verify there are no merge conflicts.
-* Click on the "Files changed" tab to review the changes.
-  * Verify the changes do not violate the [Florida DrupalCamp Code of Conduct](https://www.fldrupal.camp/code-conduct).
-  * Verify the Acceptance Criteria of the issue has been met.
-  * Verify there are minimal grammatical or syntax errors.
-    * This may require clicking on the feature branch, navigating to the changed file, and verifying it renders as expected.
+1. Verify the target branch is `develop`.
+2. Verify there are no merge conflicts.
+3. Click on the "Files changed" tab to review the changes.
+    1. Verify the changes do not violate the [Florida DrupalCamp Code of Conduct](https://www.fldrupal.camp/code-conduct).
+    2. Verify the Acceptance Criteria of the issue has been met.
+    3. Verify there are minimal grammatical or syntax errors.
+        * It is probably helpful to click on the feature branch, navigate to the changed file, and verify it renders as expected.
 
 ### Review Pass
-* Click on the "Review changes" button.
-  * Leave a positive comment.
-  * Select "Approve".
-  * Click on the "Submit review" button.
-* Update the related issue:
+1. Click on the "Review changes" button.
+    1. Leave a positive comment.
+    2. Select "Approve".
+    3. Click on the "Submit review" button.
+2. Update the related issue:
     1. Remove yourself from "Assignees".
     2. Assign to a team lead.
-    2. Set "Status" to "Ready for Merge".
+    3. Set "Status" to "Ready for Merge".
 
 ### Review Fail
 1. Leave a comment in the "Files changed", kindly suggesting changes.
@@ -91,6 +92,44 @@ Just be sure to set your "base" to `develop` and "compare" to your feature branc
     1. Remove yourself from "Assignees".
     2. Assign back to the original assignee.
     2. Set "Status" to "To do".
+
+## Resolve Merge Conflicts
+1. Checkout the `develop` branch.
+
+    ```
+    git checkout develop
+    ```
+2. Pull the latest changes from the remote repository.
+
+    ```
+    git pull
+    ```
+3. Checkout your feature branch.
+
+    ```
+    git checkout <feature-branch>
+    ```
+4. Merge `develop` into your feature branch.
+
+    ```
+    git merge develop
+    ```
+5. Use your code editor's conflict resolution tool to resolve the conflicts.
+6. Verify all of the changes are staged.
+
+    ```
+    git status
+    ```
+7. Commit the merged changes.
+
+    ```
+    git commit --no-edit
+    ```
+8. Push your feature branch to the remote repository.
+
+    ```
+    git push origin <feature-branch>
+    ```
 
 ## Story Prompts
 1. A road trip was just the thing for me and my friends.
