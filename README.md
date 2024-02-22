@@ -115,6 +115,8 @@ Just be sure to set your "base" to `develop` and "compare" to your feature branc
     git merge develop
     ```
 5. Use your code editor's conflict resolution tool to resolve the conflicts.
+    * [Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_merge-conflicts)
+    * [PhpStorm](https://www.jetbrains.com/help/phpstorm/resolving-conflicts.html#distributed-version-control-systems)
 6. Verify all of the changes are staged.
 
     ```
