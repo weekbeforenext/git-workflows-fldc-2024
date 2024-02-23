@@ -5,4 +5,4 @@
 3. [My best friend is a dragon](my-best-friend-is-a-dragon-example.md)
 4. [My Home](my-home-18.md)
 5. [Tom's Magical Dog](toms-magical-dog-14.md)
-6. [Unexpected UPS Package](stories/unexpected-ups-package-19.md)
+6. [Unexpected UPS Package](unexpected-ups-package-19.md)
