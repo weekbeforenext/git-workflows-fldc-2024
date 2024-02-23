@@ -1,6 +1,8 @@
 # Introduction to Agile and Git Workflows for Web Developers
 This project was created for the *[Introduction to Agile and Git Workflows for Web Developers](https://www.fldrupal.camp/session/introduction-agile-and-git-workflows-web-developers)* training at Florida DrupalCamp 2024.
 
+[Story links](stories/README.md)
+
 * [Create a Feature Branch](#create-a-feature-branch)
 * [Create a Pull Request](#create-a-pull-request)
 * [Request a Review](#request-a-review)
