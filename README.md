@@ -147,9 +147,9 @@ Just be sure to set your "base" to `develop` and "compare" to your feature branc
 10. When I heard that familiar jingle coming down the street, I assumed it was the ice cream truck; I never knew they had mobile deliveries of those.
 11. “Don’t look at me, I thought we were going for tacos.”
 12. Late for work, I throw open the front door and find myself face-to-face with a UPS driver standing next to the biggest box I’ve ever seen.
-13. Joanna’s favorite band is playing a sold-out show tonight but thankfully, she’s figured out a way to get in.
+13. Mark’s favorite band is playing a sold-out show tonight but thankfully, he's figured out a way to get in.
 14. “Pick a number, any number,” she said, her voice a taunt, “And I’ll show you your future self.”
-15. Though Evie knew the dog was special, she’d never realized he was magical.
+15. Though Tom knew the dog was special, he'd never realized he was magical.
 16. The return address on the gold envelope is in Greenland — had they really tracked me down from the other side of the world?
 17. “Does this purple shirt make me stand out?” asked the giant one-eyed cat.
 18. She’d eaten a lot of pie during her career as a restaurant critic, but never before had she tasted one quite like this.
