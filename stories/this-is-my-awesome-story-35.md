@@ -1,4 +1,4 @@
-### This is my awesome story
+# This is my awesome story
 
 “Pick a number, any number,” she said, her voice a taunt, “And I’ll show you your future self.”
 
