@@ -77,10 +77,11 @@ Just be sure to set your "base" to `develop` and "compare" to your feature branc
     1. Leave a positive comment.
     2. Select "Approve".
     3. Click on the "Submit review" button.
+2. Merge the Pull Request.
 2. Update the related issue:
     1. Remove yourself from "Assignees".
-    2. Assign to a team lead.
-    3. Set "Status" to "Ready for Merge".
+    2. Assign back to the original assignee.
+    3. Set "Status" to "Done".
 
 ### Review Fail
 1. Leave a comment in the "Files changed", kindly suggesting changes.
